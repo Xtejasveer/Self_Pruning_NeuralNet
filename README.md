@@ -1,8 +1,8 @@
 # Self-Pruning Neural Network
 
-A PyTorch implementation of a neural network that **learns to prune itself during training** — no post-training pruning step required. The network uses learnable gate parameters attached to every weight, and an L1 sparsity penalty that encourages most gates to collapse to exactly zero, effectively removing unnecessary connections on the fly.
+A PyTorch implementation of a neural network that **learns to prune itself during training**  no post-training pruning step required. The network uses learnable gate parameters attached to every weight, and an L1 sparsity penalty that encourages most gates to collapse to exactly zero, effectively removing unnecessary connections on the fly.
 
-Built for CIFAR-10 image classification as part of the Tredence AI Engineer Intern case study.
+Built for CIFAR-10 image classification.
 
 ---
 
